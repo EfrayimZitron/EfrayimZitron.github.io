@@ -36,16 +36,18 @@
 				
 		<div id="contact-area">
 			
-			<form action="//forms.brace.io/efrayimzitron@gmail.com" method="post" enctype="text/plain" >
+			<form action="//forms.brace.io/efrayimzitron@gmail.com" method="post" enctype="text/plain">
 				<label for="Name">Name:</label>
 				<input type="text" name="Name" id="Name" />				
 	
 				<label for="Email">Email:</label>
-				<input type="text" name="Email" id="Email" />
+				<input type="email" name="_replyto" id="Email" />
 				
 				<label for="Message">Message:</label><br />
 				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
-
+				
+				<input type="hidden" name="_next" value="//site.io/thanks.html" />
+				
 				<input type="submit" name="submit" value="Submit" class="submit-button" />
 			</form>
 			
