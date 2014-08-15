@@ -4,6 +4,16 @@
     <title> Efrayim Zitron - Homepage</title>
 	<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
 	<link rel="stylesheet" href="styles/stylesheet.css" type="text/css" charset="utf-8" />
+	
+	<script type="text/javascript">function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+    }
+
+	$("#resume").click(function() {
+	   scrollToAnchor('resume');
+	});</script>
+	
   </head>
   <body>
     <div id="banner">
@@ -14,10 +24,135 @@
 	  <ul>
 	   <li><a href="index.html">Home</a></li>
 	   <li><a href="http://efrayimzitron.wordpress.com/">Blog</a></li>
+	 <!--  <li><a id="resume" href="#">Resume</a></li>-->
 	   <li><a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">Resume</a></li>
 	   <li><a href="mailto:efrayimzitron@gmail.com">Contact Me</a></li>
 	  </ul>
 	</div>
+	
+	<a name="resume"/>
+	<div id= "wrapper">
+	<div id = "resume">
+	  <div id = "personalinfo">
+	  <p> <strong> Efrayim Zitron</strong> </p>
+	  
+        <ul>
+	    <li> 878 East 13th Street &#8226;</li><li> Brooklyn, NY 11230 &#8226;</li><li> 718-614-0312 &#8226;</li><li> efrayim.zitron@nyu.edu </li>
+	  </div>
+	  
+      <hr/> 
+	  
+      <p> <strong><u>EDUCATION </u></strong> </p>
+      <p>  <strong>NYU Polytechnic School of Engineering, Brooklyn, NY </strong> </p>
+      <div class="dates">
+		<div class="left"><p><em>bachelor of Science in Computer Engineering </em> </p></div> 
+		<div class="right"> <p><strong>May 2015 </strong></p> </div>        
+	  </div>
+      <p>
+      Cumulative GPA: 3.98
+      </p>
+	  
+      <div class="dates">
+		<div class="left"><p><strong>CUNY Brooklyn College, Brooklyn, NY </strong> </p></div> 
+		<div class="right"> <p><strong>Sep 2011 - May 2013 </strong></p> </div>        
+	  </div>
+	  
+      <p>
+      <em>Coordinated Engineering Program</em>
+      , 4.00 GPA
+      </p>
+	  <p>
+		Students attend Brooklyn College for the first two years of undergraduate engineering studies, </p>
+		<p>and then transfer out to complete the degree.
+  	  </p>
+		<p><strong>Relevant Courses: </strong></p>
+	  
+	<div class="table">
+		<div class="coursesleft">
+          <p>Object-Oriented Programming</p>
+		  <p>Data Structures</p>
+		  <p>Intro to  Databases</p>
+		</div>
+		<div class="right">   
+		  <p>Communication Networks</p>
+		  <p>Network Security</p>
+		  <p>Probability and Statistics</p>
+		</div>        
+	</div>
+	  
+	  
+	  <hr/> 
+	  
+	  <p>
+		<strong><u>TECHNICAL SKILLS </u></strong>
+	  </p>
+	  <p>
+		Programming Languages: C++, Python, Java, PHP
+	  </p>
+	  <p>
+		Tools / Technologies: HTML, CSS, MySQL
+	  </p>
+	  
+	  <hr/> 
+	  
+	  <p>
+		<strong><u>EXPERIENCE</u></strong>
+	  </p>
+      <div class="dates">
+		<div class="left"><p><strong>Summer Research Assistant at NYU Polytechnic </strong> </p></div> 
+		<div class="right"> <p><strong>June - August 2014 </strong></p> </div>        
+	  </div>
+	  <div class= "project">
+	  <ul>
+		<li>Implemented database infrastructure for quantitative analyses of Wikipedia data for the WikiDAT open-source project.</li>
+		<li>Designed abstracted versions of the database using Python and SQLAlchemy, for MySQL and PostgreSQL variants of the original database.</li>
+		<li>Benchmarked bulk inserts into various versions of the abstracted databases. </li>
+	  </ul>
+	  </div>
+		
+		<strong></strong>
+	  </p>
+	  <p>
+		<strong><u></u></strong>
+	  </p>
+	  <p>
+		<strong><u>ACADEMIC PROJECTS</u></strong>
+	  </p>
+	 <div class="dates">
+		<div class="left"><p><strong>Calendar Web Application, NYU Polytechnic  </strong> </p></div> 
+		<div class="right"> <p><strong>Fall 2013 </strong></p> </div>        
+	  </div>
+	  <em>(Manages event scheduling for a user)</em>
+	  <div class= "project">
+	   <ul>
+			
+			<li>Developed an application to enable log-in functionality, user validation and data
+			manipulation with HTML5, CSS3, and PHP.</li>
+			<li>Wrote prepared statements to securely execute database queries.</li>
+			<li>Produced entity-relationship diagram and relational database schema to outline
+			the design of the back-end database, which was implemented using MySQL.</li>
+	   </ul>
+	  </div>
+		<strong></strong>
+	  </p>
+	  
+	  <hr/> 
+	  
+	  <p>
+		<strong><u>HONORS</u></strong>
+	  </p>
+	  <p>
+		<em>The Jonathan Marc Zimmering Memorial Prize (2013). </em>
+	  </p>
+	  <p>
+		Awarded for outstanding achievement in the Coordinated Engineering program at Brooklyn College.
+	  </p>
+	  <p>
+		Eta Kappa Nu Electrical and Computer Engineering Honors Society
+	  </p>
+    </div>
+	</div>
+	
 	
 	<div id = "mygit">
 	  <p>Check out my</p>
