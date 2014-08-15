@@ -4,15 +4,21 @@
     <title> Efrayim Zitron - Homepage</title>
 	<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
 	<link rel="stylesheet" href="styles/stylesheet.css" type="text/css" charset="utf-8" />
-	
-	<script type="text/javascript">function scrollToAnchor(aid){
-    var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-    }
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-	$("#resume").click(function() {
-	   scrollToAnchor('resume');
-	});</script>
+	
+	<script type="text/javascript"> 
+	
+$(document).ready(function(){
+
+var $root = $('html, body');
+
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+})});</script>
 	
   </head>
   <body>
@@ -24,13 +30,14 @@
 	  <ul>
 	   <li><a href="index.html">Home</a></li>
 	   <li><a href="http://efrayimzitron.wordpress.com/">Blog</a></li>
-	 <!--  <li><a id="resume" href="#">Resume</a></li>-->
-	   <li><a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">Resume</a></li>
+	   <li><a id="link1" href="#haha">Resume</a></li>
+	   <!--  <li><a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">Resume</a></li>-->
 	   <li><a href="mailto:efrayimzitron@gmail.com">Contact Me</a></li>
 	  </ul>
 	</div>
 	
-	<a name="resume"/>
+	
+	
 	<div id= "wrapper">
 	<div id = "resume">
 	  <div id = "personalinfo">
@@ -153,7 +160,7 @@
     </div>
 	</div>
 	
-	
+	<a id = "haha" name="haha">
 	<div id = "mygit">
 	  <p>Check out my</p>
       <a href="http://www.github.com/EfrayimZitron" target="_blank">
