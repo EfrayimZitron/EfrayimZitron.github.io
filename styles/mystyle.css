@@ -120,3 +120,8 @@ label {
 	padding-top: 5px;
 	font-size: 1em;
 }
+
+#thanks{
+    height: auto;
+	text-align: center;
+}
