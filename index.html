@@ -4,32 +4,196 @@
     <title> Efrayim Zitron - Homepage</title>
 	<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
 	<link rel="stylesheet" href="styles/stylesheet.css" type="text/css" charset="utf-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	 <script src="js/jquery.sticky.js"></script>
+	<script type="text/javascript"> 
+	
+$(document).ready(function(){
+
+var $root = $('html, body');
+
+$('a').click(function() {
+    $root.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+})
+});
+
+
+
+         $(document).ready(function(){
+    $("#menu").sticky({topSpacing:0, center:true});
+  });
+
+
+</script>
   </head>
   <body>
+    <a id="myhome" class="top"></a>
     <div id="banner">
 	  <h1>Efrayim Zitron</h1>
 	  <p>I am currently a student at NYU Polytechnic School of Engineering pursuing a B.S. in Computer Engineering.</p>
+	 
     </div>
-    <div id="menu">
+	   
+<div id="menuwrap">
+    <div id="menu">  
 	  <ul>
-	   <li><a href="index.html">Home</a></li>
+	   <li><a id="link0" href="#myhome">Home</a></li>
 	   <li><a href="http://efrayimzitron.wordpress.com/">Blog</a></li>
-	   <li><a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">Resume</a></li>
-	   <li><a href="mailto:efrayimzitron@gmail.com">Contact Me</a></li>
+	   <li><a id="link1" href="#myresume">Resume</a></li>
+	   <!--  <li><a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">Resume</a></li>-->
+	   <li><a id="link2" href="#mycontactinfo">Contact Me</a></li>
 	  </ul>
+	</div>	
+</div>	
+
+	
+	<div id= "wrapper">
+	<div id = "resume">
+	  <div id = "personalinfo">
+	  <p> <strong> Efrayim Zitron</strong> </p>
+	  <a id = "myresume" class="top"></a>
+        <ul>
+	    <li> Brooklyn, NY  &#8226;</li><li> 718-614-0312 &#8226;</li><li> efrayim.zitron@nyu.edu </li>
+	  </div>
+	  
+      <hr/> 
+	  
+      <p> <strong><u>EDUCATION </u></strong> </p>
+      <p>  <strong>NYU Polytechnic School of Engineering, Brooklyn, NY </strong> </p>
+      <div class="dates">
+		<div class="left"><p><em>Bachelor of Science in Computer Engineering </em> </p></div> 
+		<div class="right"> <p><strong>May 2015 </strong></p> </div>        
+	  </div>
+      <p>
+      Cumulative GPA: 3.98
+      </p>
+	  
+      <div class="dates">
+		<div class="left"><p><strong>CUNY Brooklyn College, Brooklyn, NY </strong> </p></div> 
+		<div class="right"> <p><strong>Sep 2011 - May 2013 </strong></p> </div>        
+	  </div>
+	  
+      <p>
+      <em>Coordinated Engineering Program</em>
+      , 4.00 GPA
+      </p>
+	  <p>
+		Students attend Brooklyn College for the first two years of undergraduate engineering studies, </p>
+		<p>and then transfer out to complete the degree.
+  	  </p>
+		<p><strong>Relevant Courses: </strong></p>
+	  
+	<div class="table">
+		<div class="coursesleft">
+          <p>Object-Oriented Programming</p>
+		  <p>Data Structures</p>
+		  <p>Intro to  Databases</p>
+		</div>
+		<div class="right">   
+		  <p>Communication Networks</p>
+		  <p>Network Security</p>
+		  <p>Probability and Statistics</p>
+		</div>        
+	</div>
+	  
+	  
+	  <hr/> 
+	  
+	  <p>
+		<strong><u>TECHNICAL SKILLS </u></strong>
+	  </p>
+	  <p>
+		Programming Languages: C++, Python, Java, PHP
+	  </p>
+	  <p>
+		Tools / Technologies: HTML, CSS, MySQL
+	  </p>
+	  
+	  <hr/> 
+	  
+	  <p>
+		<strong><u>EXPERIENCE</u></strong>
+	  </p>
+      <div class="dates">
+		<div class="left"><p><strong>Summer Research Assistant at NYU Polytechnic </strong> </p></div> 
+		<div class="right"> <p><strong>June - August 2014 </strong></p> </div>        
+	  </div>
+	  <div class= "project">
+	  <ul>
+		<li>Implemented database infrastructure for quantitative analyses of Wikipedia data for the WikiDAT open-source project.</li>
+		<li>Designed abstracted versions of the database using Python and SQLAlchemy, for MySQL and PostgreSQL variants of the original database.</li>
+		<li>Benchmarked bulk inserts into various versions of the abstracted databases. </li>
+	  </ul>
+	  </div>
+		
+		<strong></strong>
+	  </p>
+	  <p>
+		<strong><u></u></strong>
+	  </p>
+	  <p>
+		<strong><u>ACADEMIC PROJECTS</u></strong>
+	  </p>
+	 <div class="dates">
+		<div class="left"><p><strong>Calendar Web Application, NYU Polytechnic  </strong> </p></div> 
+		<div class="right"> <p><strong>Fall 2013 </strong></p> </div>        
+	  </div>
+	  <em>(Manages event scheduling for a user)</em>
+	  <div class= "project">
+	   <ul>
+			
+			<li>Developed an application to enable log-in functionality, user validation and data
+			manipulation with HTML5, CSS3, and PHP.</li>
+			<li>Wrote prepared statements to securely execute database queries.</li>
+			<li>Produced entity-relationship diagram and relational database schema to outline
+			the design of the back-end database, which was implemented using MySQL.</li>
+	   </ul>
+	  </div>
+		<strong></strong>
+	  </p>
+	  
+	  <hr/> 
+	  
+	  <p>
+		<strong><u>HONORS</u></strong>
+	  </p>
+	  <p>
+		<em>The Jonathan Marc Zimmering Memorial Prize (2013). </em>
+	  </p>
+	  <p>
+		Awarded for outstanding achievement in the Coordinated Engineering program at Brooklyn College.
+	  </p>
+	  <p>
+		Eta Kappa Nu Electrical and Computer Engineering Honors Society
+	  </p>
+	  
+    </div>
 	</div>
 	
-	<div id = "mygit">
-	  <p>Check out my</p>
-      <a href="http://www.github.com/EfrayimZitron" target="_blank">
-      <img src="images/GitHub_Logo.png" id= "gitlogo"/>
-      </a>	  
+	<div id="pdfversion">
+	<p> You can download a PDF version <a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">here</a> </p>
 	</div>
 	
-	<div id = "mylinkedin">
-      <a href="http://www.linkedin.com/pub/efrayim-zitron/76/b59/218/" target="_blank">
-      <img src="images/LinkedIn-InBug-2CRev.png" id= "linkedinlogo"/>
-      </a>	  
+	<a id = "mycontactinfo" class="top"></a>
+	
+	  
+	  <div id = "mygit">
+	  <h3> Contact Me</h5>
+	     <p>You can reach me by <a href= "mailto:efrayimzitron@gmail.com">email</a>
+	    <p>and you can check out my</p>
+        <a href="http://www.github.com/EfrayimZitron" target="_blank">
+        <img src="images/GitHub_Logo.png" id= "gitlogo"/>
+        </a>	  
+	  </div>
+	
+	  <div id = "mylinkedin">
+        <a href="http://www.linkedin.com/pub/efrayim-zitron/76/b59/218/" target="_blank">
+        <img src="images/LinkedIn-InBug-2CRev.png" id= "linkedinlogo"/>
+        </a>	  
 	</div>
 	
 	

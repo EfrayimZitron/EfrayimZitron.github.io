@@ -1,21 +1,41 @@
-p{
-   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
+
+p ,a{
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 15px;
+}
+
+
 
 #banner {
    text-align: center;
    max-width: 500px;
    margin: 0 auto;
+   margin-bottom: 25px;
+   
 }
 
 #banner h1 {
   font-family: "bellotalight",  Arial, sans-serif;
   font-weight: bold;
   font-size: 50px;
-  margin: auto;
+ 
 }
 
+#menuwrap
+{
+	
+}
+
+
 #menu {
+	background-color: rgba(255, 255, 255, 1); 
 	display: table;
 	white-space: nowrap;
     margin: auto;
@@ -27,6 +47,8 @@ p{
 	border-style: solid;
 	border-color: #000;
     border-radius: 8px;
+
+	
 }
 
 #menu ul {
@@ -62,10 +84,12 @@ p{
 }
 
 #gitlogo{
+
 	max-width: 150px;
 }
 
 #linkedinlogo{
+
 	max-width: 75px;
 }
 
@@ -74,3 +98,76 @@ p{
     height: auto;
 	text-align: center;
 }
+
+ #wrapper
+{margin: 0 auto; width: 750px;} 
+   
+#resume {
+	
+    font-size: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+	margin-top: 2cm;
+    margin-left:7%;
+	margin-bottom: 1cm;
+	
+ }
+
+#personalinfo ul{
+margin: 0;
+padding: 0;
+
+}
+
+
+#personalinfo{
+  width: 650px;
+  text-align: center;
+}
+
+#personalinfo li{
+display: inline;
+}
+
+#pdfversion{
+text-align: center;
+margin-bottom: 2cm;
+}
+
+.dates { margin:0px; padding:0px;  overflow: hidden; width:650px;}
+.left { float:left; width:350px; }
+.right { float:right; width:250px; }
+
+.table { margin:0px; padding:0px; overflow: hidden; width:500px;}
+.coursesleft { float:right; width:250px;  }
+
+
+.project ul 
+{   list-style: disc outside none; 
+    margin-left: 0; 
+    padding-left: 1em;}
+
+.project li{
+
+ width: 725px;
+} 	
+
+hr {
+    width:725px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a.top {
+position: relative;
+top:-100px;
+display: block;
+height: 0;
+width:0;
+}
+
+
+
