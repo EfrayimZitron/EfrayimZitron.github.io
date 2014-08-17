@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="styles/stylesheet.css" type="text/css" charset="utf-8" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-	
+	 <script src="js/jquery.sticky.js"></script>
 	<script type="text/javascript"> 
 	
 $(document).ready(function(){
@@ -18,33 +18,46 @@ $('a').click(function() {
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
     return false;
-})});</script>
-	
+})
+});
+
+
+
+         $(document).ready(function(){
+    $("#menu").sticky({topSpacing:0, center:true});
+  });
+
+
+</script>
   </head>
   <body>
+    <a id="myhome" class="top"></a>
     <div id="banner">
 	  <h1>Efrayim Zitron</h1>
 	  <p>I am currently a student at NYU Polytechnic School of Engineering pursuing a B.S. in Computer Engineering.</p>
+	 
     </div>
-    <div id="menu">
+	   
+<div id="menuwrap">
+    <div id="menu">  
 	  <ul>
-	   <li><a href="index.html">Home</a></li>
+	   <li><a id="link0" href="#myhome">Home</a></li>
 	   <li><a href="http://efrayimzitron.wordpress.com/">Blog</a></li>
-	   <li><a id="link1" href="#haha">Resume</a></li>
+	   <li><a id="link1" href="#myresume">Resume</a></li>
 	   <!--  <li><a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">Resume</a></li>-->
-	   <li><a href="mailto:efrayimzitron@gmail.com">Contact Me</a></li>
+	   <li><a id="link2" href="#mycontactinfo">Contact Me</a></li>
 	  </ul>
-	</div>
-	
-	
+	</div>	
+</div>	
+
 	
 	<div id= "wrapper">
 	<div id = "resume">
 	  <div id = "personalinfo">
 	  <p> <strong> Efrayim Zitron</strong> </p>
-	  
+	  <a id = "myresume" class="top"></a>
         <ul>
-	    <li> 878 East 13th Street &#8226;</li><li> Brooklyn, NY 11230 &#8226;</li><li> 718-614-0312 &#8226;</li><li> efrayim.zitron@nyu.edu </li>
+	    <li> Brooklyn, NY  &#8226;</li><li> 718-614-0312 &#8226;</li><li> efrayim.zitron@nyu.edu </li>
 	  </div>
 	  
       <hr/> 
@@ -52,7 +65,7 @@ $('a').click(function() {
       <p> <strong><u>EDUCATION </u></strong> </p>
       <p>  <strong>NYU Polytechnic School of Engineering, Brooklyn, NY </strong> </p>
       <div class="dates">
-		<div class="left"><p><em>bachelor of Science in Computer Engineering </em> </p></div> 
+		<div class="left"><p><em>Bachelor of Science in Computer Engineering </em> </p></div> 
 		<div class="right"> <p><strong>May 2015 </strong></p> </div>        
 	  </div>
       <p>
@@ -157,21 +170,30 @@ $('a').click(function() {
 	  <p>
 		Eta Kappa Nu Electrical and Computer Engineering Honors Society
 	  </p>
+	  
     </div>
 	</div>
 	
-	<a id = "haha" name="haha">
-	<div id = "mygit">
-	  <p>Check out my</p>
-      <a href="http://www.github.com/EfrayimZitron" target="_blank">
-      <img src="images/GitHub_Logo.png" id= "gitlogo"/>
-      </a>	  
+	<div id="pdfversion">
+	<p> You can download a PDF version <a href="https://github.com/EfrayimZitron/EfrayimZitron.github.io/blob/master/Efrayim_Zitron_Resume.pdf?raw=true">here</a> </p>
 	</div>
 	
-	<div id = "mylinkedin">
-      <a href="http://www.linkedin.com/pub/efrayim-zitron/76/b59/218/" target="_blank">
-      <img src="images/LinkedIn-InBug-2CRev.png" id= "linkedinlogo"/>
-      </a>	  
+	<a id = "mycontactinfo" class="top"></a>
+	
+	  
+	  <div id = "mygit">
+	  <h3> Contact Me</h5>
+	     <p>You can reach me by <a href= "mailto:efrayimzitron@gmail.com">email</a>
+	    <p>and you can check out my</p>
+        <a href="http://www.github.com/EfrayimZitron" target="_blank">
+        <img src="images/GitHub_Logo.png" id= "gitlogo"/>
+        </a>	  
+	  </div>
+	
+	  <div id = "mylinkedin">
+        <a href="http://www.linkedin.com/pub/efrayim-zitron/76/b59/218/" target="_blank">
+        <img src="images/LinkedIn-InBug-2CRev.png" id= "linkedinlogo"/>
+        </a>	  
 	</div>
 	
 	
