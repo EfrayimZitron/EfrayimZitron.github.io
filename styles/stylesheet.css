@@ -19,13 +19,35 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 }
 
+@font-face {
+    font-family: 'gasparregular';
+    src: url('Gaspar_Regular-webfont.eot');
+    src: url('Gaspar_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Gaspar_Regular-webfont.woff') format('woff'),
+         url('Gaspar_Regular-webfont.ttf') format('truetype'),
+         url('Gaspar_Regular-webfont.svg#gasparregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-p ,a, h2{
+}
+
+
+
+p ,a{
    font-family: Tahoma, Geneva, sans-serif;
    font-size: 15px;
 }
 
 
+h2 {font-family: 'gasparregular', Helvetica, sans-serif;}
+
+a.top {
+	position: relative;
+	top:0px;
+	display: block;
+	height: 0;
+	width:0;
+}
 
 #banner {
    text-align: center;
@@ -41,7 +63,6 @@ p ,a, h2{
   font-size: 50px;
  
 }
-
 
 
 #menu {
@@ -88,27 +109,8 @@ p ,a, h2{
 }
 
 
-#mygit,#mylinkedin{
-	height: auto;
-	text-align: center;
-}
-
-#gitlogo{
-
-	max-width: 150px;
-}
-
-#linkedinlogo{
-	max-width: 75px;
-	margin-left:1%;
-	
-}
 
 
-#thanks{
-    height: auto;
-	text-align: center;
-}
 
 #resume-wrapper{
 	 margin: 0 auto; 
@@ -155,7 +157,7 @@ margin-bottom: 2cm;
 }
 
 .dates { margin:0px; padding:0px;  overflow: hidden; width:650px;}
-.left { float:left; width:350px;}
+.left { float:left; width:370px;}
 .right { float:right; width:250px; text-align: center;}
 
 .table { margin:0px; padding:0px; overflow: hidden; width:500px;}
@@ -183,13 +185,7 @@ hr {
     padding: 0;
 }
 
-a.top {
-	position: relative;
-	top:0px;
-	display: block;
-	height: 0;
-	width:0;
-}
+
 
 #contactinfo{
 	text-align:center;
@@ -225,7 +221,6 @@ a.top {
 #contact-area input, #contact-area textarea {
 	padding: 5px;
 	width: 471px;
-	font-family: Helvetica, sans-serif;
 	font-size: 1em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
@@ -244,6 +239,21 @@ a.top {
 	float: right;
 }
 
+#mygit,#mylinkedin{
+	height: auto;
+	text-align: center;
+}
+
+#gitlogo{
+
+	max-width: 150px;
+}
+
+#linkedinlogo{
+	max-width: 75px;
+	margin-left:1%;
+	
+}
 
 label {
 	float: left;
@@ -253,6 +263,7 @@ label {
 	padding-top: 5px;
 	font-size: 1em;
 }
+
 
 
 
