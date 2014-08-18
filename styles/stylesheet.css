@@ -7,8 +7,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   border: 0;
 }
 
-
-
 @font-face {
     font-family: 'bellotalight';
     src: url('Bellota-Light-webfont.eot');
@@ -44,10 +42,6 @@ p ,a, h2{
  
 }
 
-#menuwrap
-{
-	
-}
 
 
 #menu {
@@ -116,22 +110,29 @@ p ,a, h2{
 	text-align: center;
 }
 
- #wrapper{
+#resume-wrapper{
 	 margin: 0 auto; 
 	 width: 750px;
-	 
+	 margin-top: 2cm;
 	 } 
+	
    
 #resume {
 	
     font-size: 15px;
     font-family: Tahoma, Geneva, sans-serif;
-	margin-top: 2cm;
+	margin-top: 1cm;
     margin-left:5%;
 	margin-bottom: 1cm;
 	
  }
 
+ #resume-wrapper h2 {
+  font-size:40px;
+  text-align:center;
+ }
+ 
+ 
 #personalinfo ul{
 margin: 0;
 padding: 0;
