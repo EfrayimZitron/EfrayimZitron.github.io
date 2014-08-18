@@ -18,11 +18,9 @@ $('a').click(function() {
 	}, 500);
 	return false;
 })
-});
 
 
 
-		 $(document).ready(function(){
 	$("#menu").sticky({topSpacing:0, center:true});
   });
 
@@ -47,12 +45,12 @@ $('a').click(function() {
 			</div>	
 		</div>	
 
-		
+		<a id = "myresume" class="top"></a>
 		<div id= "wrapper">
 			<div id = "resume">
 					<div id = "personalinfo">
 						<p> <strong> Efrayim Zitron</strong> </p>
-						<a id = "myresume" class="top"></a>
+						
 						<ul>
 							<li> Brooklyn, NY  &#8226;</li><li> 718-614-0312 &#8226;</li><li> efrayim.zitron@nyu.edu </li>
 					</div>
@@ -169,23 +167,49 @@ $('a').click(function() {
 		
 		<a id = "mycontactinfo" class="top"></a>
 		
-		  
-		<div id = "mygit">
-		  <h3> Contact Me</h5>
-			 <p>You can reach me by <a href= "mailto:efrayimzitron@gmail.com">email</a>
-			<p>and you can check out my</p>
-			<a href="http://www.github.com/EfrayimZitron" target="_blank">
-			<img src="images/GitHub_Logo.png" id= "gitlogo"/>
-			</a>	  
-	    </div>
+		<div id = "contactinfo">
+			<h2> Contact Me</h2>
 		
-		<div id = "mylinkedin">
-			<a href="http://www.linkedin.com/pub/efrayim-zitron/76/b59/218/" target="_blank">
-			<img src="images/LinkedIn-InBug-2CRev.png" id= "linkedinlogo"/>
-			</a>	  
+			<div id="form-wrap">
+				
+				<div id="contact-area">
+					
+					<form action="http://getsimpleform.com/messages?form_api_token=5f45b0cf5b9ce25b4a98d45268718d17" method="post">
+						<label for="Name">Name:</label>
+						<input type="text" name="Name" id="Name" />				
+			
+						<label for="Email">Email:</label>
+						<input type="text" name="Email" id="Email" />
+						
+						<label for="Message">Message:</label><br />
+						<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+						
+						<input type='hidden' name='redirect_to' value='http://www.efrayimzitron.com/thankyou.html' />
+
+						<input type="submit" name="submit" value="Submit" class="submit-button" />
+					</form>
+					
+					<div style="clear: both;"></div>
+				
+				</div>
+		
+			</div>
+			  
+			<div id = "mygit">
+				 <p>You can reach me by <a href= "mailto:efrayimzitron@gmail.com">email</a> directly</p>
+				<p>and you can check out my</p>
+				<a href="http://www.github.com/EfrayimZitron" target="_blank">
+				<img src="images/GitHub_Logo.png" id= "gitlogo"/>
+				</a>	  
+			</div>
+			
+			<div id = "mylinkedin">
+				<a href="http://www.linkedin.com/pub/efrayim-zitron/76/b59/218/" target="_blank">
+				<img src="images/LinkedIn-InBug-2CRev.png" id= "linkedinlogo"/>
+				</a>	  
+			</div>
+			<p> &copy Efrayim Zitron 2014</p>
 		</div>
-	
-	
     </body>
 </html>
 		
