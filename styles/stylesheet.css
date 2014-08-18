@@ -119,6 +119,7 @@ p ,a, h2{
  #wrapper{
 	 margin: 0 auto; 
 	 width: 750px;
+	 
 	 } 
    
 #resume {
@@ -182,21 +183,22 @@ hr {
 }
 
 a.top {
-position: relative;
-top:0px;
-display: block;
-height: 0;
-width:0;
+	position: relative;
+	top:0px;
+	display: block;
+	height: 0;
+	width:0;
 }
 
 #contactinfo{
-text-align:center;
-background-color: #C8C8AC;
-padding-bottom: 5cm;
+	text-align:center;
+	background-color: #C8C8AC;
+	padding-top: 1cm;
+	padding-bottom: 4cm;
 }
 
 #contactinfo h2{
-font-size: 40px;
+	font-size: 40px;
 }
 
 
