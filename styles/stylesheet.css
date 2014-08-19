@@ -199,8 +199,8 @@ hr {
 	background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 0%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
 
-	padding-top: 35px;
-	padding-bottom: 235px;
+	padding-top: 2%;
+	padding-bottom: 13%;
 }
 
 #contactinfo h2{
@@ -295,7 +295,9 @@ margin-top: 75px;
 }
 
 
-#w{position: relative;}
+#w{
+	position: relative;
+}
 
 #content-divider hr{
     position: absolute;
