@@ -294,10 +294,13 @@ text-align: center;
 margin-top: 75px;
 }
 
+
+#w{position: relative;}
+
 #content-divider hr{
     position: absolute;
 	z-index: -1;
-	top:16%;
+	top:6.2%;
     width: 100%;
     border: 0;
     height: 1px;
