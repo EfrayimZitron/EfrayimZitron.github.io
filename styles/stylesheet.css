@@ -142,8 +142,6 @@ position:relative;
    
 #resume {
 	
-    font-size: 15px;
-    font-family: Tahoma, Geneva, sans-serif;
 	margin-top: 35px;
     margin-left:5%;
 	margin-right: 5%;
@@ -198,7 +196,6 @@ margin-bottom: 75px;
 } 	
 
 hr {
-    width:725px;
     display: block;
     height: 1px;
     border: 0;
