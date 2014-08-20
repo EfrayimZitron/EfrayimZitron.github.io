@@ -143,8 +143,6 @@ position:relative;
 #resume {
 	
 	margin-top: 35px;
-    margin-left:5%;
-	margin-right: 5%;
 	margin-bottom: 35px;
 	
  }
@@ -163,7 +161,6 @@ padding: 0;
 
 
 #personalinfo{
-  width: 650px;
   text-align: center;
 }
 
