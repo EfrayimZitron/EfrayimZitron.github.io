@@ -236,7 +236,7 @@ background: linear-gradient(to bottom,  rgba(254,255,232,1) 0%,rgba(214,219,191,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 ); /* IE6-9 */
 
 	padding-top: 5%;
-	padding-bottom: 13%;
+	padding-bottom: 22%;
 }
 
 #contactinfo h2{
@@ -261,7 +261,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
 #contact-area {
 	width: 600px;
 	margin-top: 25px;
-	margin-top: 150px;
 }
 
 #contact-area input, #contact-area textarea {
