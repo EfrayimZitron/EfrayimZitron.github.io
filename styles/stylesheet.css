@@ -31,11 +31,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 }
 
+#wrap{
+	position: relative;
+	margin:0 auto;
+    width:960px;
+     border: 1px solid #888;
+    padding: 1px;
+    box-shadow: 0 0 10px #000;
+}
 
 
-p ,a{
-   font-family: Tahoma, Geneva, sans-serif;
-   font-size: 15px;
+p ,a, li{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
 }
 
 
@@ -110,6 +118,19 @@ position:relative;
 
 
 
+#content-divider hr{
+    position: absolute;
+	z-index: -1;
+	top:6.5%;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    
+}
 
 
 #resume-wrapper{
@@ -158,7 +179,7 @@ margin-bottom: 75px;
 }
 
 .dates { margin:0px; padding:0px;  overflow: hidden; width:650px;}
-.left { float:left; width:370px;}
+.left { float:left; width:390px;}
 .right { float:right; width:250px; text-align: center;}
 
 .table { margin:0px; padding:0px; overflow: hidden; width:500px;}
@@ -199,7 +220,7 @@ hr {
 	background: linear-gradient(to bottom,  #f5f6f6 0%,#dbdce2 0%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
 
-	padding-top: 2%;
+	padding-top: 5%;
 	padding-bottom: 13%;
 }
 
@@ -294,26 +315,6 @@ text-align: center;
 margin-top: 75px;
 }
 
+footer {text-align:center;}
 
-#w{
-	position: relative;
-	margin:0 auto;
-    width:960px;
-     border: 1px solid #888;
-    padding: 1px;
-    box-shadow: 0 0 10px #000;
-}
 
-#content-divider hr{
-    position: absolute;
-	z-index: -1;
-	top:6.5%;
-    width: 100%;
-    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    
-}
