@@ -115,7 +115,9 @@ a.top {
 }
 
 #menu a:hover {
-    text-decoration: underline;
+
+    color: #fff;
+    text-shadow: -1px 1px 5px #000, 1px -1px 5px #000;
 }
 
 
@@ -178,7 +180,7 @@ margin-bottom: 75px;
 
 
 #pdfversion a{
-    color: #03c;
+     color: #03c;
     -webkit-transition: 0.5s;
      -moz-transition: 0.5s;
      -o-transition: 0.5s;
@@ -259,6 +261,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
 #contact-area {
 	width: 600px;
 	margin-top: 25px;
+	margin-top: 150px;
 }
 
 #contact-area input, #contact-area textarea {
@@ -307,7 +310,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
  * Hover.css Copyright Ian Lunn 2014.
  */
 .pulse-shrink {
-  display: inline-block;
+  display: block;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -354,6 +357,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
     outline: 0;
 }
 
+#email-info{
+ text-align: center;
+}
+
 #mygit,#mylinkedin{
 	height: auto;
 	text-align: center;
@@ -365,6 +372,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', end
 }
 
 #linkedinlogo{
+
 	max-width: 75px;
 	margin-left:1%;
 	
