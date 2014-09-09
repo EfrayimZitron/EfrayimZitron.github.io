@@ -383,21 +383,28 @@ hr {
  text-align: center;
 }
 
-#mygit,#mylinkedin{
-	height: auto;
-	text-align: center;
+#mygit{
+	margin:0 auto;
+	max-width: 150px;
+	height: auto;	
 }
 
 #gitlogo{
-
+	text-align: center;
 	max-width: 150px;
 }
 
-#linkedinlogo{
-
+#mylinkedin{
+    margin:0 auto;
 	max-width: 75px;
+	height: auto;
+}
+
+#linkedinlogo{
+   text-align: center;
 	margin-left:1%;
 	
+	max-width: 75px;
 }
 
 label {
