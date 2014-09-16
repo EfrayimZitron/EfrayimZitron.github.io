@@ -204,9 +204,9 @@ display: inline;
 .coursesright { float:right; width:250px; }
 
 
-.dates { margin:0px; padding:0px;  overflow: hidden; width:650px;}
-.left { float:left; width:390px;}
-.right { float:right; width:250px; text-align: center;}
+.dates { margin:0px; padding:0px;  overflow: hidden; width:670px;}
+.left { float:left; width:410px;}
+.right { float:right; width:260px; text-align: center;}
 
 
 .project ul 
